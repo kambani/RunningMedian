@@ -1,0 +1,2 @@
+# RunningMedian
+Finding a median of an incoming stream of data is relatively simple if you can store all the values in the memory/storage. However, if we are imposed with memory/storage constraints, finding an exact solution is difficult. If the data has some characteristics we can exploit and develop efficient specialized solutions. For example if the stream type is integral, we can find an approximate solution if we can leverage lessons from counting sort and probability density function. This code is an attempt to do the same
